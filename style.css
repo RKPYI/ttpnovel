@@ -1,0 +1,43 @@
+.novel {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(27, 27, 27);
+    border-radius: 8px;
+}
+.novel p {
+    margin: 20px;
+}
+.chapter-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    background-color: #202020;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+.chapter-nav button {
+    background-color: #0077FF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.chapter-nav button:hover {
+    background-color: #0056b3;
+}
+.top {
+    text-align: center;
+    background-color: #151515;
+    margin-top: 20px;
+}
+body {
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
