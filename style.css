@@ -9,11 +9,12 @@
 }
 .chapter-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-size: 20px;
     font-style: italic;
     text-align: center;
+    width: 80%;
     background-color: #202020;
     margin: auto;
     border-radius: 5px;
@@ -29,6 +30,15 @@
     font-size: 16px;
     border-radius: 5px;
 }
+  
+.chapter-nav form {
+    display: flex;
+}
+  
+.chapter-nav #next {
+    margin-left: auto;
+}
+  
 .chapter-nav button:hover {
     background-color: #0056b3;
 }
@@ -36,6 +46,12 @@
     text-align: center;
     background-color: #151515;
     margin-top: 20px;
+}
+.footer {
+    text-align: center;
+    background-color: #000000;
+    margin: auto 0;
+    padding: 10px 0;
 }
 body {
     background-color: rgb(10, 10, 10);
